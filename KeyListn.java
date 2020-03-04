@@ -31,6 +31,6 @@ public class KeyListn implements NativeKeyListener {
 			System.exit(1);
 		}
 
-		GlobalScreen.addNativeKeyListener(new GlobalKeyListenerExample());
+		GlobalScreen.addNativeKeyListener(new KeyListn());
 	}
 }
